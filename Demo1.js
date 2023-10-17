@@ -2,7 +2,7 @@
 
 var firstName;
 
-firstName = "Matt";
+firstName = "John";
 
 // firstName = 'Matt';
 
@@ -15,4 +15,4 @@ firstName = "Matt";
 console.log(firstName);
 
 
-
+console.log("Matt");
