@@ -1,4 +1,5 @@
 "use strict;"
+
 console.log("start index.js");
 
 window.onload = init;
@@ -18,8 +19,8 @@ function init(){
 function greetTheUserBtnClicked(){
     //this code will run when the button is clicked...
     console.log("button clicked");
-    const nameTextbox = document.getElementById("nameTextbox");
-    let nameValue = nameTextbox.value;
+    const nameTextboxInputTagObject = document.getElementById("nameTextbox");
+    let nameValue = nameTextboxInputTagObject.value;
     let message = "Hello " + nameValue;
 
     const outputH1 = document.getElementById("outputH1");
