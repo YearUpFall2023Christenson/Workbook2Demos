@@ -11,19 +11,10 @@ var fahrenheit = 80;
 
 var celcius = (fahrenheit - 32) * 5 / 9;
 
-// var step1 = fahrenheit -32 ;
-
-// var step2 = step1 * 5;
-
-// var step3 = step2 / 9;
-
-// celcius = step3;
-
-
-
 // Display the results.
 
 var message = "The Fehrenheit Temp: " + fahrenheit + " is the same as the Celcius Temp: " + celcius;
+var message = `The Fehrenheit Temp: ${fahrenheit} is the same as the Celcius Temp: ${celcius}`;
 
 console.log(message);
 
