@@ -17,6 +17,11 @@ var endingSavingsAmount = savingsAmount * 2;
 var message = "At an interest rate of " + interestRateInPercentageWhole + "%, your value would double in " + howManyYearsToDouble + " years!";
 var message2 = "A savings of " + savingsAmount + " would become " + endingSavingsAmount
 
+let newmessage = `At an interest rate of "${interestRateInPercentageWhole}%", your value would double in ${howManyYearsToDouble} years!` ;
+
+
 console.log(message);
 
 console.log(message2);
+
+console.log(newmessage)
