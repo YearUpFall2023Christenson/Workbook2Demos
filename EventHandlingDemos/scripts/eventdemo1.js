@@ -3,8 +3,8 @@
 window.onload = init;
 
 function init(){
-    const helloBtnElement = document.getElementById("helloBtn");
-    helloBtnElement.onclick = sayHi;
+    const helloBtn = document.getElementById("helloBtn");
+    helloBtn.onclick = sayHi;
 
 }
 
